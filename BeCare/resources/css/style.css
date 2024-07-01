@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf0f6;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #f9d1e7;
+    padding: 10px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-logo img {
+    height: 55px;
+}
+
+.navbar-logo i {
+    color: #de3570;
+    font-size: 50px;
+    margin-left: 5px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+#busca {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#txtBusca {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    width: 420px;
+}
+
+#btnBusca {
+    background-color: #8ba658;
+    color: #fefefe;
+    border: none;
+    padding: 8px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.icons-header {
+    display: flex;
+    align-items: center;
+}
+
+.icons-header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.icons-header button i {
+    color: #eb3e92;
+    font-size: 20px;
+}
+
+#menu {
+    background-color: #8ba658;
+    padding: 8px;
+    text-align: center;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: #f8f8f8;
+    margin: 25px;
+}
+
+
+h2 {
+    color: #de3570;
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: px;
+}
+
+.product {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.product .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.heart-icon {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #de3570;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.price h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.price p {
+    font-size: 16px;
+    color: #e47796;
+    margin-top: 5px;
+}
+
+.btnComprar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #8ba658;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btnComprar i {
+    margin-right: 5px;
+}
+
+footer{
+    background-color: #8ba658;
+    color: #ffffff;
+    padding: 10px;
+}

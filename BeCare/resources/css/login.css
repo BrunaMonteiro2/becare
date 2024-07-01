@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/becarecapa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.wrapper{
+    
+    width: 430px;
+    height: 500px;
+    background: #ffedf4;
+    border: 1px solid #e47796;
+    box-shadow: 0 8px 32px #000000;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em;
+    color: #e30051;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid #e30051;
+}
+
+.input-box label{
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    color: #030001;    
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    font-size: 1em;
+    color:#4d248a ;
+    padding: 0 35px 0 5px;
+}
+
+.remember-forgot{
+    margin: 15px 0 15px;
+    font-size: .9em;
+    color: #4d248a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot a{
+    color: #e30051;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    background: #8ba658;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.register-link{
+    font-size: .9em;
+    text-align: center;
+    color: #000000;
+    margin: 25px 0 10px;
+}
+
+.register-link p a {
+    color: #e30051;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
